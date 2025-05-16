@@ -16,8 +16,7 @@ class Otp extends React.Component {
             otpNum = otpNum + 100000
         }
 
-    this.setState({otp :otpNum})
-    this.setState({color :`#${otpNum}`})
+    this.setState({otp :otpNum, color :`#${otpNum}`})
 
 }
 
